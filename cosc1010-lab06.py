@@ -1,12 +1,13 @@
-# Your Name Here
+# Hawkins Kopp
 # UWYO COSC 1010
-# Submission Date
+# 10/20/24
 # Lab 06
-# Lab Section: 
+# Lab Section: 16
 # Sources, people worked with, help given to: 
 # your
 # comments
 # here
+# 
 
 
 random_string = """
@@ -101,7 +102,6 @@ for character, count in sorted_character_count.items():
 print("*"*75)
 # Output which letter occurred the most 
 
-
 most_occurred = max(sorted_character_count, key=sorted_character_count.get)
 least_occurred = min(sorted_character_count, key=sorted_character_count.get)
 
@@ -113,7 +113,7 @@ print("*"*75)
 
 # Output what the percentage of the string each character is, again in alphabetical
 
-total_chars = len(random_string)
-for char, count in sorted_character_count.items():
-    percentage = (count / total_chars) * 100
-    print(f"{char}: {percentage:.2f}%")
+total_characters = len(random_string)
+for character, count in sorted_character_count.items():
+    percentage = (count / total_characters) * 100
+    print(f"{character}: {percentage:.2f}%")
